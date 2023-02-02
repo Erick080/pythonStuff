@@ -1,3 +1,4 @@
+#modificacao teste
 from datetime import date
 
 ano = date.today().year
@@ -10,7 +11,7 @@ if idade < 18:
 
 elif idade > 18:
     dif = int (idade - 18)
-    print ('O alistamento está {} ano[s] atrasado[s], deveria ter sido feito em {}.' .format (dif, ano - dif))
+    print ('O alistamento está {} ano(s) atrasado(s), deveria ter sido feito em {}.' .format (dif, ano - dif))
 
 elif idade == 18:
     print ('O alistamento deve ser feito este ano')
